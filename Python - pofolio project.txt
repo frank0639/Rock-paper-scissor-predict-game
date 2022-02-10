@@ -1,0 +1,19 @@
+
+I'm going for a Rock ,  Paper, and Scissor game with  Health points. The game will also add a forth option called "Predict" which will have it's own win / loose rule.
+
+The concept of the game is to get as many wins as possible before your health drops to 0. 
+
+Have the computer secretly select a random option between rock, scissors, paper, and predict.
+Prompt the user to choose between rock, scissors, paper and predict.
+Take string input from user and compare it against the computer's choice.
+Determine who has won: 
+If user and computer chose the same option besides predict, it is a tie. No health is taken from the player.
+If one chose rock, and one chose scissors, rock has won. If the user player lost, the user's health points is reduced from the value given to rock. 
+If one chose scissors, and one chose paper, scissors has won. If the user player lost, the user's health points is reduced from the value given to scissors.  
+If one chose paper, and one chose rock, paper has won. If the user player lost, the user's health points is reduced from the value given to paper.
+If the user and computer choose predict, this counts as a win for the player and increase the players HP by a set amount.
+if the user choose predict and the computer does not, the player looses that interaction and takes double reduction of the computer choice.
+Every time a user wins an interaction, increase the win count by 1
+If the user HP drops to 0, display game over and the total number of wins
+Ask the player if they want to try again. 
+Quit if they say no, and start from the beginning if they say yes.
